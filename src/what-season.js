@@ -30,8 +30,6 @@ function getSeason(date) {
   if (month <= 10 && month >= 8) return "autumn";
 }
 
-getSeason(new Date(2020, 02, 31));
-getSeason(new Date(2150, 7, 21, 18, 36, 41, 841));
 
 module.exports = {
   getSeason,
